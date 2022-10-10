@@ -732,9 +732,6 @@ body.kc-css-system .kc-css-660668 .kc-col-container {
   }
 }
 @media (min-width: 48em) and (max-width: 62em) {
-  #hideonMobile {
-    display: none !important;
-  }
   #TestimonialDiv div div div {
     margin: 1rem;
     margin-bottom: -0.5rem;
@@ -1050,7 +1047,11 @@ body.kc-css-system .kc-css-660668 .kc-col-container {
     width: 28rem !important;
     line-height: 20px !important;
   }
-
+  .kc-row-container .kc-wrap-columns,
+  .kc_row_inner {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .mn-icon-220:before {
     font-size: 20px;
     font-size: 20px;

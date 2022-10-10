@@ -36,3 +36,14 @@ module.exports = {
   getAllLaunches,
   addNewLaunch,
 };
+
+
+
+
+function addelemnt(a) {
+
+ return function addSecondElement(b, c){
+    return b + a;
+ }
+}
+console.log(addelemnt(2)(3,5));

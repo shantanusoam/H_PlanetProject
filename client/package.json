@@ -1,11 +1,10 @@
 {
-  "name": "nasa-fe",
+  "name": "ISRO-fe",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "arwes": "^1.0.0-alpha.5",
     "cross-env": "^7.0.3",
-    "nasa": "file:..",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -34,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ISRO": "file:.."
   }
 }

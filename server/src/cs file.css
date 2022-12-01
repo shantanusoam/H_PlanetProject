@@ -680,11 +680,6 @@ body.kc-css-system .kc-css-660668 .kc-col-container {
 #TestimonialDiv div div {
   flex-wrap: nowrap !important;
 }
-@media screen and (max-width: 999px) {
-  .newsletternone {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 1281px) {
   #hoverbox1,

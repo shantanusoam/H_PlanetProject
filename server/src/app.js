@@ -18,7 +18,7 @@ const app = express();
 // }
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:3001',
   })
 );
 app.use(morgan('combined'));
@@ -26,7 +26,7 @@ app.use(morgan('combined'));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use('/launches', launchesRouter);
-app.use('/planets',planetRouter);
+app.use('/planets', planetRouter);
 
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));

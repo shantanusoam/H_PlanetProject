@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const MONGO_URL =
-  'mongodb+srv://Testing-Learn:03gHyb6m1b8TVUEd@cluster0.rbdkzap.mongodb.net/isro?retryWrites=true&w=majority';
+  'mongodb+srv://PROJECTS-LEARNING_ISRO:ISRO7860@isro.dv4qbcq.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connection.once('open', () => {
   console.log('MongoDb is Ready');
@@ -19,3 +19,5 @@ async function mongoConnect() {
 module.exports = {
   mongoConnect,
 };
+// PROJECTS-LEARNING_ISRO
+// ISRO7860
